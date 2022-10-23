@@ -74,6 +74,7 @@ a:hover{
     background-color: black;
     letter-spacing: 0.0625rem;
     padding: 20px 30px;
+    margin-bottom: 6.25rem;
 }
 
 .container .main div h2{
@@ -120,6 +121,51 @@ a:hover{
     cursor: pointer;
     margin-top: 20px;
 }
+
+.container2 .box{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10;
+}
+
+.container2 img{
+    width: 7.5rem;
+    height: 10.625rem;
+    grid-column: 1 / span 1;
+    grid-row: 1 / 3;
+    
+}
+
+.container2 .imgbx{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+
+}
+
+.container2 .imgbx h2{
+    color: black;
+    grid-column: 2/ span 2;
+    font-weight: 900;
+    opacity: 0.5;
+}
+
+.container2 .imgbx h3{
+    color: black;
+    grid-column: 2 / span 3;
+    margin-top: -3.125rem;
+
+}
+
+.container2 .imgbx p{
+    color: black;
+    opacity: 0.5;
+    grid-column: 2 /span 3;
+    margin-top: -5.625rem;
+}
+
+
 
 
 
