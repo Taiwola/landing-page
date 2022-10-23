@@ -172,6 +172,11 @@ a:hover{
         display: block;
     }
 
+    .main{
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+    }
+
     .container img{
             height: 70vh;
             width: 100vw;
@@ -181,11 +186,15 @@ a:hover{
 
     .text{
         display: block;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
     }
 
     .container2 .box{
         display: block;
         margin-top: 500px;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
     }
 
 }
@@ -202,9 +211,16 @@ a:hover{
         margin-top: 0.625rem;
     }
 
+    .text{
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+    }
+
     .container2 .box{
         display: block;
         margin-top: 40rem;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
     }
 }
 
@@ -212,6 +228,16 @@ a:hover{
     .container2 .box{
         display: block;
         margin-top: 40rem;
+    }
+
+    .main{
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+    }
+
+    .text{
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
     }
 
     .header header  h1{
@@ -225,3 +251,11 @@ a:hover{
     }
 }
 
+
+@media screen and (max-width: 1024px){
+    .container2{
+        margin-top: 6.25rem;
+    }
+
+
+}
