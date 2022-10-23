@@ -172,6 +172,10 @@ a:hover{
         display: block;
     }
 
+    .container2 .imgbx{
+        padding: 0.625rem 0.625rem;
+    }
+
     .main{
         margin-left: 0.625rem;
         margin-right: 0.625rem;
@@ -203,6 +207,10 @@ a:hover{
 @media screen and (max-width: 400px){
     .header header  h1{
         margin-left: 6.25rem;
+    }
+
+    .container2 .imgbx{
+        padding: 0.625rem 0.625rem;
     }
 
     .menu{
@@ -238,6 +246,10 @@ a:hover{
     .text{
         margin-left: 0.625rem;
         margin-right: 0.625rem;
+    }
+
+    .container2 .imgbx{
+        padding: 0.625rem 0.625rem;
     }
 
     .header header  h1{
