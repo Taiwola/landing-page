@@ -208,3 +208,20 @@ a:hover{
     }
 }
 
+@media screen and (max-width: 412px){
+    .container2 .box{
+        display: block;
+        margin-top: 40rem;
+    }
+
+    .header header  h1{
+        margin-left: 6.25rem;
+    }
+
+    .menu{
+        display: block;
+        margin-right: 7.5rem;
+        margin-top: 0.625rem;
+    }
+}
+
