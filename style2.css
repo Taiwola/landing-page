@@ -176,7 +176,7 @@ a:hover {
 
 /* media query */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 978px) {
     .container {
         display: block;
     }
@@ -192,9 +192,9 @@ a:hover {
 
     .container img {
         height: 70vh;
-        width: 100vw;
+        width: 95vw;
         padding: 10px 10px;
-        padding-right: 10px;
+        margin-right: 100px;
     }
 
     .text {
@@ -218,6 +218,10 @@ a:hover {
         margin-left: 6.25rem;
     }
 
+    .container img {
+        margin-right: 10rem;
+    }
+
     .container2 .imgbx {
         padding: 0.625rem 0.625rem;
     }
@@ -241,7 +245,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 522px) {
     .container2 .box {
         display: block;
         margin-top: 40rem;
@@ -269,6 +273,7 @@ a:hover {
         display: block;
         margin-right: 7.5rem;
         margin-top: 0.625rem;
+        padding: 0.625rem;
     }
 }
 
@@ -279,4 +284,10 @@ a:hover {
     }
 
 
+}
+
+@media screen and (max-width: 438px) {
+    .container2 .box {
+        margin-top: 50rem;
+    }
 }
