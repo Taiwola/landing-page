@@ -197,6 +197,7 @@ a:hover {
         width: 95vw;
         padding: 10px 10px;
         margin-right: 100px;
+        object-fit: cover;
     }
 
     .text {
@@ -222,6 +223,7 @@ a:hover {
 
     .container img {
         margin-right: 10rem;
+        object-fit: cover;
     }
 
     .container2 .imgbx {
