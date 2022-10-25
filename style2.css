@@ -80,6 +80,7 @@ a:hover {
     padding: 20px 30px;
     margin-bottom: 6.25rem;
     margin-right: 0.625rem;
+    height: 600px;
 }
 
 .container .main div h2 {
@@ -92,7 +93,7 @@ a:hover {
 .container .main div h3 {
     color: white;
     font-size: 1.875rem;
-    padding: 5px 5px;
+    padding: 20px 5px;
     margin-top: 0px solid white;
 }
 
@@ -135,6 +136,7 @@ a:hover {
     margin-left: 0.625rem;
     margin-right: 0.625rem;
     margin-bottom: 0.625rem;
+    margin-top: 100px;
 }
 
 .container2 img {
@@ -142,7 +144,7 @@ a:hover {
     height: 10.625rem;
     grid-column: 1 / span 1;
     grid-row: 1 / 3;
-
+    margin-bottom: 40px;
 }
 
 .container2 .imgbx {
@@ -176,7 +178,7 @@ a:hover {
 
 /* media query */
 
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 975px) {
     .container {
         display: block;
     }
@@ -205,7 +207,7 @@ a:hover {
 
     .container2 .box {
         display: block;
-        margin-top: 500px;
+        margin-top: 700px;
         margin-left: 0.625rem;
         margin-right: 0.625rem;
     }
